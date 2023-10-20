@@ -25,13 +25,19 @@ h1 .seo {
 }
 
 /*removed styling for div element*/
+/*removed div element entirely*/
+/*moved styling of deleted div element to ul element*/
 
-div ul {
+ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     list-style-type: none;
-;
+    float: right;
 }
 
-div ul li {
+ul li {
     display: inline-block;
     margin-left: 25px;
 }
