@@ -27,6 +27,7 @@ h1 .seo {
 /*removed styling for div element*/
 /*removed div element entirely*/
 /*moved styling of deleted div element to ul element*/
+/*added styling to the ul to interact when hovered over*/
 
 ul {
     padding-top: 15px;
@@ -35,6 +36,10 @@ ul {
     font-size: 20px;
     list-style-type: none;
     float: right;
+    :hover {
+       font-weight: 600;
+       text-decoration: underline;
+    }
 }
 
 ul li {
